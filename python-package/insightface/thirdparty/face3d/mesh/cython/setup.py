@@ -6,7 +6,7 @@ to compile
 # setup.py
 from distutils.core import setup, Extension
 from Cython.Build import cythonize
-from Cython.Distutils import build_ext
+from Cython.Distutils import build_ext    
 import numpy
 
 setup(
